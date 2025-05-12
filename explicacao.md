@@ -1,5 +1,18 @@
 # Documentação do Projeto (Feito por Felipe)
 
+# REQUISITOS
+- Java 17
+- MySQL Server
+- Crie a table integrador_g6 na database
+
+# COMANDOS ESSENCIAIS
+- .\gradlew dependencies
+- .\gradlew build
+- .\gradlew bootRun
+
+# ERRO AO USAR GRADLEW?
+- Use (curl -o gradle/wrapper/gradle-wrapper.jar https://raw.githubusercontent.com/gradle/gradle/v8.3.0/gradle/wrapper/gradle-wrapper.jar)
+
 ## Visão Geral
 Este é um projeto backend desenvolvido em Spring Boot que gerencia jogos, tipos de jogos e matérias. A aplicação segue o padrão de arquitetura REST e implementa operações CRUD (Create, Read, Update, Delete) para cada entidade do sistema.
 
